@@ -14,5 +14,12 @@ function randomColor() {
 function switchBackground() {
   const backgroundColor = randomColor();
   document.getElementById('clap-button').style.backgroundColor = backgroundColor;
-  document.getElementById('clap-button').innerHTML = 'Hello'
+  
+}
+
+function changeText() {
+  const index = Math.floor(Math.random() * 3);
+  const text = ['egg','boy','maple','buttonboy',]
+  document.getElementById('clap-button').innerHTML = text[index]
+
 }
