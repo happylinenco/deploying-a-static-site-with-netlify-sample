@@ -13,5 +13,5 @@ function randomColor() {
 
 function switchBackground() {
   const backgroundColor = randomColor();
-  document.body.style.backgroundColor = backgroundColor;
+  document.getElementsByClassName('container') = backgroundColor;
 }
