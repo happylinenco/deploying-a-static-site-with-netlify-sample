@@ -13,5 +13,5 @@ function randomColor() {
 
 function switchBackground() {
   const backgroundColor = randomColor();
-  document.getElementsByClassName('container') = backgroundColor;
+  document.getElementById('clap-button') = backgroundColor;
 }
